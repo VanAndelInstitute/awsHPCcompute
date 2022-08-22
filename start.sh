@@ -18,3 +18,9 @@ ln -s /efs/software /primary/vari/
 
 echo export MODULEPATH=/cm/local/modulefiles:/cm/shared/modulefiles > /etc/profile.d/modules.sh
 echo source /usr/share/Modules/init/bash >> /etc/profile.d/modules.sh
+
+#TODO set up nss-cache and bring in the nss-cache input database
+
+#TODO set up s3 lab mounts
+mkdir -p /varidata/research/projects
+#mount .. .. ..
