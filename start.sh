@@ -6,7 +6,7 @@ mkdir /efs
 mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-09ddb74e0c26c1e69.efs.us-east-2.amazonaws.com:/ /efs
 
 #modules and module paths
-yum install -y evironment-modules
+yum install -y environment-modules
 mkdir -p /cm/shared/modulefiles
 ln -s /efs/modules/bbc /cm/shared/modulefiles/bbc
 
